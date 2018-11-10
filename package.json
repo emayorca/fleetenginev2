@@ -1,0 +1,29 @@
+{
+  "name": "sistema-mantenimiento-backend",
+  "version": "1.0.0",
+  "description": "Api RESTful del proyecto sistema de mantenimiento Angular 4",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ervin Mayorca Pizarro",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "connect-multiparty": "^2.1.0",
+    "cors": "^2.8.4",
+    "del": "^3.0.0",
+    "express": "^4.16.3",
+    "jwt-simple": "^0.5.1",
+    "lokijs": "^1.5.3",
+    "moment": "^2.19.3",
+    "mongoose": "^4.13.6",
+    "multer": "^1.3.0"
+  },
+  "devDependencies": {
+    "@angular/cli": "^7.0.3",
+    "nodemon": "^1.12.5"
+  }
+}
